@@ -11,8 +11,14 @@
     "ControlNet": [
         "https://hysts-controlnet-v1-1.hf.space"
     ],
-    "FaceSwap": [
-        "https://coxapi-faceswap.hf.space"
+    "FaceSwap1": [
+        "https://www.deepswapper.com/"
+    ],
+    "FaceSwap2": [
+        "https://www.miocreate.com/face-swap.html"
+    ],
+    "FaceSwap3": [
+        "https://faceswapper.ai/swapper"
     ],
     "IC-Light": [
         "https://lllyasviel-ic-light.hf.space"
@@ -20,9 +26,6 @@
     "OOTDiffusion": [
         "https://levihsu-ootdiffusion.hf.space"
     ],
-    "DeepDanbooru": [
-        "https://hysts-deepdanbooru.hf.space"
-    ]
 
 
 }
