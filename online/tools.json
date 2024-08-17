@@ -11,21 +11,21 @@
     "ControlNet": [
         "https://hysts-controlnet-v1-1.hf.space"
     ],
-    "FaceSwap1": [
-        "https://www.deepswapper.com/"
-    ],
-    "FaceSwap2": [
-        "https://www.miocreate.com/face-swap.html"
-    ],
-    "FaceSwap3": [
+    "FaceSwap": [
         "https://faceswapper.ai/swapper"
     ],
-    "IC-Light": [
-        "https://lllyasviel-ic-light.hf.space"
+    "PicaFaceSwapMulti": [
+        "https://www.pica-ai.com/face-swap-multiple-faces/"
+    ],
+    "DeepSwapper": [
+        "https://www.deepswapper.com/"
     ],
     "OOTDiffusion": [
         "https://levihsu-ootdiffusion.hf.space"
     ],
+        "IC-Light": [
+        "https://lllyasviel-ic-light.hf.space"
+    ]
 
 
 }
