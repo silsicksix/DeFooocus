@@ -2,7 +2,13 @@
     "Omost": [
         "https://lllyasviel-omost.hf.space"
     ],
-    "PixArt": [
+    "PixArtSigma": [
         "https://pixart-alpha-pixart-sigma.hf.space"
+	],
+    "PixArtAlpha": [
+        "https://pixart-alpha-pixart-alpha.hf.space"
+	],
+	"BlackForestLab": [
+		"https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell"
     ]
 }
