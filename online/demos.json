@@ -1,20 +1,26 @@
 {
+    "TripoSR": [
+        "https://stabilityai-triposr.hf.space"
+    ],
+    "Stable Fast 3D": [
+        "https://stabilityai-stable-fast-3d.hf.space"
+    ],
     "Omost": [
         "https://lllyasviel-omost.hf.space"
     ],
-    "PixArtSigma": [
+    "PixArt": [
         "https://pixart-alpha-pixart-sigma.hf.space"
+    ],
+    "FLLUX.1 Schnell": [
+        "https://black-forest-labs-flux-1-schnell.hf.space"
 	],
-    "PixArtAlpha": [
-        "https://pixart-alpha-pixart-alpha.hf.space"
+	"FaceSwap": [
+		"https://huggingface.co/spaces/jjlealse/face-swap"
 	],
-	"BlackForestLab": [
-		"https://black-forest-labs-flux-1-schnell.hf.space"
+	"FaceSwapDocker": [
+        "https://justforailolomg-face-swap-docker-nsfw.hf.space"
 	],
 	"InpaintingFlux": [
 		"https://skalskip-flux-1-inpaint-dev.hf.space"
-	],
-	"FaceSwap"
-		"https://kiranchauhan-faceswap.hf.space"
     ]
 }
