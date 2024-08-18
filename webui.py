@@ -13,7 +13,6 @@ import modules.flags as flags
 import modules.gradio_hijack as grh
 import modules.style_sorter as style_sorter
 import modules.meta_parser
-from modules.rembg import rembg_run
 from modules.load_online import load_demos_names, load_tools_names, load_demos_url, load_tools_url
 import args_manager
 import copy
@@ -138,14 +137,6 @@ with shared.gradio_root:
                         onload = "{PHOTOPEA_IFRAME_LOADED_EVENT}(this)">"""
                     )
                 gr.Markdown("Powered by [🦜 Photopea API](https://www.photopea.com/api)")
-            with gr.Tab("rembg"):
-                with gr.Column(scale=1):
-                    rembg_input = grh.Image(label='Drag above image to here', source='upload', type='filepath', scale=20)
-                    rembg_button = gr.Button(value="Remove Background", interactive=True, scale=1)
-                with gr.Column(scale=3):
-                    rembg_output = grh.Image(label='rembg Output', interactive=False, height=380)
-                gr.Markdown("Powered by [🪄 rembg 2.0.53](https://github.com/danielgatis/rembg/releases/tag/v2.0.53)")
-            rembg_button.click(rembg_run, inputs=rembg_input, outputs=rembg_output, show_progress="full") 
             with gr.Tab("Online"):
                 with gr.Tab("Demos"):
                     for name in load_demos_names():
