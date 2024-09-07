@@ -14,14 +14,21 @@
     "FaceSwap": [
         "https://faceswapper.ai/swapper"
     ],
-    "PicaFaceSwapMulti": [
-        "https://www.pica-ai.com/face-swap-multiple-faces/"
-    ],
     "DeepSwapper": [
         "https://www.deepswapper.com/"
     ],
         "Photoroom": [
         "https://www.photoroom.com/tools/background-remover"
+    ],
+    "LLMPlayground": [
+        "https://llmplayground.net"
+    ],
+    "Dreamina": [
+        "https://dreamina.capcut.com/"
+    ],
+    "HailAI": [
+        "https://hailuoai.com/video"
+
     ]
 
 
